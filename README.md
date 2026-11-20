@@ -129,7 +129,7 @@ The CRM database includes these properties:
 
 ### 3. Notion CRM Database
 
-![Notion CRM Database](screenshots/notion-crm-database.png)
+![Notion CRM Database](https://github.com/syedaliabbashamdani/notion-crm-automation/blob/c014ad964eb5ce51b836ce230ba77b0f8e0fbaaa/screenshots/image%20(17).png)
 
 ### 4. Successful Workflow Execution
 
