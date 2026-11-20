@@ -121,7 +121,7 @@ The CRM database includes these properties:
 
 ### 1. Complete n8n Workflow
 
-![Complete n8n Workflow](screenshots/workflow-overview.png)
+![Complete n8n Workflow](https://github.com/syedaliabbashamdani/notion-crm-automation/blob/fe834ba9062d573fe861ac5848bd455be94b3305/screenshots/image%20(15).png)
 
 ### 2. Notion Create Database Page Node
 
