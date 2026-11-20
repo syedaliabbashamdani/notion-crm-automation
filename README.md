@@ -133,7 +133,7 @@ The CRM database includes these properties:
 
 ### 4. Successful Workflow Execution
 
-![Successful Workflow Execution](screenshots/successful-execution.png)
+![Successful Workflow Execution](https://github.com/syedaliabbashamdani/notion-crm-automation/blob/953cb0c0db07a6ffa755b178d8e14b948e951255/screenshots/image%20(18).png)
 
 ## 🧪 Testing & Results
 
