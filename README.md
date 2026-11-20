@@ -139,9 +139,16 @@ The CRM database includes these properties:
 
 Successfully connected n8n with the Notion CRM database and tested the creation of a sample lead record:
 
-**Test Record:** `Test Lead - Ali`
+**Test Record:** `Test Lead - Ahmad Khan`
 
 The test demonstrated successful automated record creation and structured lead management in Notion.
+
+## 📚 Project Documentation
+
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/055ec36b982884ebc17d15a2711e0bb4ec056fda/docs/PROJECT-WALKTHROUGH.md)
+to understand the workflow architecture, individual steps,
+technologies, and business applications.
+
 
 ## 📈 Business Benefits
 
