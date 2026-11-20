@@ -125,7 +125,7 @@ The CRM database includes these properties:
 
 ### 2. Notion Create Database Page Node
 
-![Notion Create Database Page](screenshots/notion-create-page.png)
+![Notion Create Database Page](https://github.com/syedaliabbashamdani/notion-crm-automation/blob/f2be0bd08082aaec18624f3ee5e4a25d6953b07d/screenshots/image%20(16).png)
 
 ### 3. Notion CRM Database
 
