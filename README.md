@@ -40,27 +40,40 @@ The system:
 
 ## ⚙️ Workflow Architecture
 
-```text
-       Customer Lead Information
-                  |
-                  v
-          Webhook Trigger
-                  |
-                  v
-             Edit Fields
-                  |
-                  v
-           AI Lead Summary
-                  |
-                  v
-       Notion Create Database Page
-                  |
-                  v
-          Notion CRM Database
-                  |
-                  v
-        Organized Customer Records
+
+```mermaid
+flowchart TD
+    A["👤 Customer Lead Information<br/>Name, Email, Service & Message"]
+    B["⚙️ Webhook Trigger<br/>Receive Lead Data"]
+    C["📝 Edit Fields<br/>Format & Organize Lead Information"]
+    D["🤖 AI Lead Summary<br/>Analyze & Summarize Customer Lead"]
+    E["📤 Notion Create Database Page<br/>Send Lead Information to Notion"]
+    F["🗂️ Notion CRM Database<br/>Store Customer Information"]
+    G["📊 Organized Customer Records<br/>Manage & Track Leads"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    H["🔗 n8n Automation"] -.-> B
+    I["🧠 AI Model<br/>Google Gemini / OpenAI"] -.-> D
+    J["📚 Notion Integration"] -.-> E
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    style D fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style E fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
+    style F fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style G fill:#C8E6C9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style H fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
+    style I fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style J fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
 ```
+
 
 ## 🔄 Workflow Explanation
 
