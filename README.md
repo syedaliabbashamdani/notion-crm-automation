@@ -145,7 +145,7 @@ The test demonstrated successful automated record creation and structured lead m
 
 ## 📚 Project Documentation
 
-Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/055ec36b982884ebc17d15a2711e0bb4ec056fda/docs/PROJECT-WALKTHROUGH.md)
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/notion-crm-automation/blob/d72bedc6ac3c42a71085ccf7f4dd75d97bd6902b/PROJECT-WALKTHROUGH.md)
 to understand the workflow architecture, individual steps,
 technologies, and business applications.
 
